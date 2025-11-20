@@ -1,0 +1,94 @@
+# ---- OS generated files ----
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# ---- Editor & IDE ----
+# VS Code
+.vscode/
+# JetBrains IDEs (GoLand, IntelliJ)
+.idea/
+*.iml
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+# Vim
+*.swp
+*.swo
+*~
+# Emacs
+*~
+
+# ---- Go/Build artifacts ----
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Build output directories - keep these out of git
+/bin/
+/build/
+dist/
+
+# Compilation outputs
+*.o
+*.a
+
+# Coverage and profiling
+coverage.out
+*.prof
+*.cover
+*.out
+
+# Package object cache (may appear with GOPATH)
+pkg/
+
+# Vendor dependencies - uncomment if you maintain a vendor/ directory in VCS
+# vendor/
+
+# ---- Tools & caches ----
+# Golangci-lint cache
+.golangci-cache/
+
+# Go env files
+.env
+.env.*
+
+# Terraform (if later used in this repo)
+*.tfstate
+*.tfstate.*
+
+# Temporary files
+*.log
+nohup.out
+
+# ---- Security/Secrets ----
+# Keys, certs, credentials
+*.pem
+*.key
+credentials.json
+
+# Misc
+node_modules/
+
+# MacOS Finder and metadata files
+.AppleDouble
+.LSOverride
+_MACOSX/
+
+# Ignore error reports
+*.rpt
+
+# Ignore generated documentation files
+docs/
+
+# Local environment files
+.secrets
+.cache
+
